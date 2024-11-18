@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 15px 30px;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  background: url('hero.jpg') no-repeat center center/cover;
+  text-align: center;
+  color: #fff;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.hero .btn {
+  padding: 10px 20px;
+  background: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.featured {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.featured h2 {
+  margin-bottom: 20px;
+}
+
+.beats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.beat {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #222;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+}
